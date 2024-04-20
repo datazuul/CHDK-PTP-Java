@@ -55,7 +55,9 @@ public enum SupportedCamera {
     return vendorId;
   }
 
-  /** @return camera driver implementation */
+  /**
+   * @return camera driver implementation
+   */
   public Class<? extends ICamera> getClazz() {
     return clazz;
   }

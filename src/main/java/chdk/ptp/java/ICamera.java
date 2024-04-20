@@ -18,10 +18,14 @@ import javax.usb.UsbDevice;
  */
 public interface ICamera {
 
-  /** @return access object to camera driver implementation */
+  /**
+   * @return access object to camera driver implementation
+   */
   SupportedCamera getCameraInfo();
 
-  /** @return true if camera currently is in connected state */
+  /**
+   * @return true if camera currently is in connected state
+   */
   public boolean isConnected();
 
   /**
